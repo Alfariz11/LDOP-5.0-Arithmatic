@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    transition: 2500ms ease-in;
+}
+
+body{
+    background-color: aliceblue
+}
+
+.container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.44fr 1fr;
+    width: 210mm;
+    height: 260mm;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.container .card-one{
+    padding: 40px 20px;
+    padding-left: 35px;
+    background-color: #BEFFF7;
+    width: 100%;
+    color: black;
+}
+
+.container .card-one .profile-image{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-image: url("DSC_0526-removebg-preview.png");
+    background-position: center;
+    background-size: 100%;
+}
+
+.container .card-one .profile-name {
+    padding: 20px;
+}
+.container .card-one .profile-name .nama{
+    text-align: center;
+    font-size: large;
+}
+
+.container .card-one .profile-name .nim{
+   text-align: center;
+}
+
+.container .card-one .profile-name .kelompok{
+    text-align: center;
+}
+
+.wa-icon img{
+    height: 30px;
+    width: 30px;
+}
+
+.ig-icon img{
+    height: 30px;
+    width: 30px;
+}
+
+.mail-icon img{
+    height: 30px;
+    width: 30px;
+}
+
+.container .card-one .contact-box{
+    margin-top: 10px;
+}
+
+.container .card-one .contact-box>*{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    margin-top: 25px;
+    align-items: center;
+}  
+
+.container .card-one .contact-box>* .text{
+    display: inline-flex;
+    word-break: break-all;
+} 
+
+
+a:visited{
+    color: blue;
+}
+.container .card-two{
+    background-color: #A6F6FF;
+    padding: 40ox 20px;
+    padding-right: 75;
+    color: black;
+}
+
+.container .card-two .box{
+    display: inline-block;
+    padding: 2px 70px 2px 20px;
+    margin-top: 45px;
+    background-color: #6499E9;
+}
+
+.container .card-two .group-1 .desc{
+     margin-top: 15px;
+     margin-left: 15px;
+}
+
+.container .card-two .group-1 .desc ul{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.container .card-two .group-2 .desc{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.container .card-two .group-3 .desc{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.container .card-two .group-3 .desc ul{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.container .card-two .group-3 .desc ul::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #001524;
+}
+
+.container .card-two .group-4 .desc{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.container .card-two .group-4 .desc ul{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.container .card-two .group-4 .desc ul::before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #001524;
+}
+
+
+
+
